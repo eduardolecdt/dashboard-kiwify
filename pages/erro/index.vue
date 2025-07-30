@@ -1,7 +1,5 @@
 <template>
-  <Nav />
   <SectionApresentacao />
-  <Footer />
 </template>
 
 <script setup>

@@ -1,11 +1,11 @@
 <template>
-  <nav></nav>
+  <section class="atalhos"></section>
 </template>
 
 <script setup></script>
 
 <style scoped>
-nav {
+section.atalhos {
   display: flex;
 }
 /* Responsivo */

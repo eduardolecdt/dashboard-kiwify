@@ -1,9 +1,11 @@
 <template>
   <Nav />
-  <SectionApresentacao />
-  <Footer />
+  <SectionAtalhos />
+  <SectionDashboard />
 </template>
 
 <script setup>
-import SectionApresentacao from '@/components/pages/index/SectionApresentacao.vue'
+import Nav from '@/components/pages/index/Nav.vue'
+import SectionAtalhos from '@/components/pages/index/SectionAtalhos.vue'
+import SectionDashboard from '@/components/pages/index/SectionDashboard.vue'
 </script>

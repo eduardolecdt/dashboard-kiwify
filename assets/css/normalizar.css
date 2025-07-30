@@ -30,7 +30,7 @@ body.bloquear {
 }
 ::selection {
   color: var(--cor-branco);
-  background-color: var(--cor-azul);
+  background-color: #26272b82;
 }
 a,
 img,

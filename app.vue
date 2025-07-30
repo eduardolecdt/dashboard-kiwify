@@ -1,6 +1,5 @@
 <template>
   <NuxtLayout>
-    <Whatsapp />
     <NuxtPage />
   </NuxtLayout>
 </template>
@@ -8,7 +7,6 @@
 <script setup>
 import { watch } from 'vue'
 import { useRouter } from 'vue-router'
-import Whatsapp from '@/components/global/whatsapp/Whatsapp.vue'
 
 const router = useRouter()
 
@@ -19,28 +17,37 @@ useSeoMeta({
   viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no',
 
   // Title and Description
-  title: 'Título do Site',
-  ogTitle: 'Título do Site',
-  description: 'Descrição do Site',
-  ogDescription: 'Descrição do Site',
+  title: 'Kiwify - Plataforma Completa para Criadores de Conteúdo',
+  ogTitle: 'Kiwify - Plataforma Completa para Criadores de Conteúdo',
+  description: 'Crie, venda e gerencie seus cursos online, produtos digitais e infoprodutos com a Kiwify. A plataforma mais completa para empreendedores digitais.',
+  ogDescription: 'Crie, venda e gerencie seus cursos online, produtos digitais e infoprodutos com a Kiwify. A plataforma mais completa para empreendedores digitais.',
   robots: 'index, follow',
   googlebot: 'max-image-preview',
-  author: 'Nome da Empresa',
+  author: 'Kiwify',
+
+  // Favicons
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+    { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+    { rel: 'manifest', href: '/site.webmanifest' }
+  ],
 
   // Theme
-  themeColor: '#ffffff',
-  msapplicationTileColor: '#ffffff',
+  themeColor: '#02B168',
+  msapplicationTileColor: '#02B168',
   appleMobileWebAppStatusBarStyle: 'default',
 
   // Site URL
   ogType: 'website',
   ogImageType: 'image/jpeg',
   ogImage: '',
-  ogUrl: 'https://seusite.com.br',
-  ogSiteName: 'Nome do Site',
+  ogUrl: 'https://kiwify.com.br',
+  ogSiteName: 'Kiwify',
   ogLocale: 'pt_BR',
-  applicationName: 'Nome do Site',
-  appleMobileWebAppTitle: 'Nome do Site'
+  applicationName: 'Kiwify',
+  appleMobileWebAppTitle: 'Kiwify'
 })
 
 watch(router.afterEach, () => {

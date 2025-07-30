@@ -1,11 +1,11 @@
 <template>
-  <footer></footer>
+  <section class="atalhos"></section>
 </template>
 
 <script setup></script>
 
 <style scoped>
-footer {
+section.atalhos {
   display: flex;
 }
 /* Responsivo */
