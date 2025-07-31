@@ -31,6 +31,15 @@ section.dashboard {
   padding: 0 0 0 20px;
 }
 /* Responsivo */
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
+  section.dashboard {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0 20px 60px 20px;
+  }
+  .coluna {
+    width: 100%;
+    padding: 0;
+  }
 }
 </style>

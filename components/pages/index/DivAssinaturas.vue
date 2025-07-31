@@ -77,6 +77,17 @@ h3 {
   margin-left: auto;
 }
 /* Responsivo */
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
+  div.assinaturas {
+    padding: 20px;
+  }
+  .linha {
+    margin: 10px 0 0 0;
+  }
+  h3 {
+    font-family: var(--regular);
+    font-size: var(--f2);
+    color: var(--cor-preto);
+  }
 }
 </style>

@@ -83,6 +83,23 @@ div.financeiro {
   background-color: var(--cor-marca-escuro);
 }
 /* Responsivo */
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
+  div.financeiro {
+    padding: 20px;
+  }
+  .parte .texto p {
+    font-size: var(--f1);
+  }
+  .parte .texto h3 {
+    font-size: var(--f4);
+  }
+  .parte svg {
+    width: 7px;
+    min-width: 7px;
+  }
+  .parte button {
+    font-size: var(--f2);
+    padding: 15px 20px;
+  }
 }
 </style>

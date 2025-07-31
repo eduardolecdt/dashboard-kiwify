@@ -250,6 +250,34 @@ div.grafico {
   margin: 8px 0 0 0;
 }
 /* Responsivo */
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
+  div.grafico {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  .seletores {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .seletor {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .chart-container {
+    width: 100%;
+    font-size: var(--f0);
+    padding: 0 10px 0 0;
+  }
+  .quadrinho {
+    width: calc(50% - 5px);
+    padding: 14px;
+    margin: 12px 0 0 0;
+  }
+  .quadrinho svg {
+    width: 15px;
+    min-width: 15px;
+    max-height: 15px;
+  }
 }
 </style>

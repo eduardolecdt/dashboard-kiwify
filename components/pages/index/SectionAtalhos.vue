@@ -107,6 +107,26 @@ button.atalho:hover {
   transform: scale(1.1);
 }
 /* Responsivo */
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
+  section.atalhos {
+    padding: 80px 10px 20px 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  section.atalhos::-webkit-scrollbar {
+    display: none;
+  }
+  button.atalho {
+    width: 100px;
+    min-width: 100px;
+    height: 90px;
+    margin: 0 10px 0 0;
+  }
+  button.atalho svg {
+    width: 20px;
+    min-width: 20px;
+    max-height: 20px;
+    margin: 0 0 15px 0;
+  }
 }
 </style>

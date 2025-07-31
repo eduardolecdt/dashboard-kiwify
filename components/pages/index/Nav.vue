@@ -188,4 +188,45 @@ img.logo {
   min-width: 20px;
   fill: var(--cor-branco);
 }
+@media screen and (max-width: 1000px) {
+  nav {
+    padding: 0 20px;
+  }
+  img.logo {
+    max-width: 90px;
+  }
+  .empresa {
+    display: none;
+  }
+  .busca {
+    margin: 0 0 0 auto;
+    width: 100%;
+    max-width: 30px;
+    padding: 0 23px 0 0;
+  }
+  .busca input {
+    display: none;
+  }
+  .busca svg {
+    width: 20px;
+    min-width: 20px;
+    position: relative;
+    left: auto;
+  }
+  .opcoes button.opcao {
+    margin: 0 15px 0 0;
+  }
+  .opcoes button.perfil img {
+    width: 30px;
+    margin: 0;
+  }
+  .opcoes button.perfil .info {
+    display: none;
+  }
+  .opcoes button.menu {
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 15px;
+  }
+}
 </style>

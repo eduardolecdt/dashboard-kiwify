@@ -86,6 +86,24 @@ div.ranking {
   color: var(--cor-preto);
 }
 /* Responsivo */
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
+  .parte {
+    padding: 20px;
+  }
+  .parte img {
+    width: 100%;
+    max-width: 40px;
+  }
+  .parte .coluna {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 60px);
+  }
+  .parte .coluna .texto p {
+    font-size: var(--f1);
+  }
+  .proxima {
+    padding: 12px 20px;
+  }
 }
 </style>
