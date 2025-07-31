@@ -65,7 +65,12 @@ section.atalhos {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  padding: 80px 60px 20px 60px;
+  padding: 80px 40px 20px 60px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+section.atalhos::-webkit-scrollbar {
+  display: none;
 }
 button.atalho {
   display: flex;
@@ -110,11 +115,6 @@ button.atalho:hover {
 @media screen and (max-width: 1000px) {
   section.atalhos {
     padding: 80px 10px 20px 20px;
-    overflow-y: scroll;
-    scrollbar-width: none;
-  }
-  section.atalhos::-webkit-scrollbar {
-    display: none;
   }
   button.atalho {
     width: 100px;
