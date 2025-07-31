@@ -4,5 +4,8 @@ export default defineNuxtConfig({
   components: true,
   css: ['~/assets/css/index.css'],
   modules: ['@pinia/nuxt'],
-  compatibilityDate: '2025-07-29'
+  compatibilityDate: '2025-07-29',
+  build: {
+    transpile: ['vue3-apexcharts']
+  }
 })

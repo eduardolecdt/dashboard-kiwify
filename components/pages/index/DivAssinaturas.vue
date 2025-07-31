@@ -37,19 +37,24 @@ div.assinaturas {
   padding: 30px;
   border-radius: 10px;
 }
+h3 {
+  font-family: var(--regular);
+  font-size: var(--f2);
+  color: var(--cor-preto);
+}
 .linha {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 10px 0 0 0;
+  margin: 15px 0 0 0;
 }
 .linha .icone {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   border-radius: 10px;
   background-color: var(--cor-gelo);
   margin: 0 10px 0 0;
